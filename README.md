@@ -18,7 +18,6 @@ These javascript files work to create a readme file based on the users input abo
 ![pic2](./Develop/readme-generator2.jpg)
 
 ## Resources
-[LIVE SITE](https://justinstone2001.github.io/Code-Quiz/)
 
-[Repository](https://github.com/Justinstone2001/Code-Quiz)
+[Repository](https://github.com/Justinstone2001/Pro-README)
 
