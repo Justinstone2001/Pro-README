@@ -14,7 +14,8 @@ Justin Stone
 These javascript files work to create a readme file based on the users input about the speicfications and details of their project/repository
 
 ## Visuals
-![pic1](./Develop/raedme_generator.jpg)
+![pic1](./Develop/readme-generator.jpg)
+![pic2](./Develop/readme-generator2.jpg)
 
 ## Resources
 [LIVE SITE](https://justinstone2001.github.io/Code-Quiz/)
