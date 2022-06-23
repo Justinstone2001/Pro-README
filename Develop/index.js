@@ -1,11 +1,11 @@
 const inquirer = require('inquirer');
 const utils = require("./utils/generateMarkdown");
 
-console.log("Hello");
+console.log("Hello, welcome to the README generator");
 const userInput = [
     {
         type: 'input',
-        name: 'repository',
+        name: 'title',
         message: 'What is the title of your project? ',
     },
     {
@@ -60,3 +60,4 @@ inquirer.prompt(userInput).then((answers) => {
     console.log(answers);
     utils.generateMarkdown(answers);
 }
+)

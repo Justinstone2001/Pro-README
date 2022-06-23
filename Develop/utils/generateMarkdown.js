@@ -1,20 +1,63 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+const fs = require('fs');
+const { readme } = require('lodash');
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+const generateMarkdown = ({
+  title,
+  description,
+  installation,
+  usage,
+  contribution,
+  tests,
+  license,
+  gitHub,
+  email
+})=> {
+  console.log('Making the README file... ');
+  const README = (
+    `
+  
+# ${title}
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+# Table of Contents
+1. [Description](#description)
+2. [License](#license)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [Tests](#tests)
+7. [Questions](#questions)
 
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+## Description
+${description}
 
-`;
-}
+## Installation
+${installation}
 
-module.exports = generateMarkdown;
+## Usage
+${usage}
+
+## Contributions
+${contribution}
+
+## Tests
+${tests}
+
+## License
+This project was covered uner the ${license} license.
+<img src="https://img.shields.io/badge/license-${license}-red" alt="badge-${license}" />
+
+## Questions
+Email me or visit my github profile here for more info!
+
+GitHub: https://github.com/${gitHub}
+
+Email: ${email}`
+  );
+  fs.writeFileSync('./readme/README.md', README);
+  console.log('All done, your README File is ready to go!');
+  process.exit();
+};
+
+module.exports = {
+  generateMarkdown
+};
