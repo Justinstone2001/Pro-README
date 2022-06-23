@@ -1,6 +1,6 @@
 
   
-# undefined
+# README Generator
 
 # Table of Contents
 1. [Description](#description)
@@ -12,27 +12,27 @@
 7. [Questions](#questions)
 
 ## Description
-ashjkl
+This project creates a readme file based on the user's specifications!
 
 ## Installation
-ahjskfd
+Install our project here at... !
 
 ## Usage
-ahksjd
+This project helps users easily create readme files with no effort
 
 ## Contributions
-haijksl
+Add more style to the readme file!
 
 ## Tests
-hasjf
+Run the project in node to see the magic!
 
 ## License
-This project was covered uner the MPL license.
-<img src="https://img.shields.io/badge/license-MPL-red" alt="badge-MPL" />
+This project was covered uner the Apache license.
+<img src="https://img.shields.io/badge/license-Apache-red" alt="badge-Apache" />
 
 ## Questions
 Email me or visit my github profile here for more info!
 
-GitHub: https://github.com/sajklf
+GitHub: https://github.com/Justinstone228
 
-Email: askd
+Email: justinstone228
