@@ -58,5 +58,5 @@ const userInput = [
 ]
 inquirer.prompt(userInput).then((answers) => {
     console.log(answers);
+    utils.generateMarkdown(answers);
 }
-)
